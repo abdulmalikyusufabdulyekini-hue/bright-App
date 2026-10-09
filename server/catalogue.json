@@ -1,0 +1,121 @@
+[
+  {
+    "id": "html",
+    "title": "HTML & CSS",
+    "category": "Development",
+    "image": "project-web.jpg",
+    "desc": "Build your first responsive website, one element at a time.",
+    "lessons": [
+      "How the web works",
+      "Your first HTML page",
+      "Styling with CSS"
+    ],
+    "body": [
+      "A website is a collection of pages. Your browser requests those pages from a server and displays them. HTML gives a page structure, CSS controls its appearance, and JavaScript adds interaction.\nPractice: open a website and identify a heading, a paragraph, and a link.",
+      "Create a folder called my-first-site. Open it in VS Code and create index.html. Add the code below, then open the file in your browser.\nCODE:<h1>Hello, world!</h1>\n<p>I am learning with Bright Tech Solutions.</p>\n<a href=\"https://brighttech.iceiy.com\">Visit Bright Tech</a>\nPractice: change the heading to your name.",
+      "CSS uses selectors to choose elements and declarations to style them. Add the following inside a style element in your HTML page.\nCODE:body { background: #100d19; color: white; }\nh1 { color: #a67aff; }\nPractice: change the heading colour and add padding to the body."
+    ]
+  },
+  {
+    "id": "js",
+    "title": "JavaScript",
+    "category": "Development",
+    "image": "course-javascript.jpg",
+    "desc": "Bring your websites to life with practical interactions.",
+    "lessons": [
+      "Variables and values",
+      "Functions",
+      "Click events"
+    ],
+    "body": [
+      "Variables store values. Use const for a value you will not reassign and let for a value that can change.\nCODE:const learner = 'Bright';\nlet lessonsCompleted = 0;\nconsole.log(learner);\nPractice: run this in your browser developer console.",
+      "Functions group instructions so you can reuse them.\nCODE:function greet(name) {\n  return 'Welcome, ' + name;\n}\nconsole.log(greet('Bright'));\nPractice: call the function with your own name.",
+      "Events let your page react to user actions.\nCODE:const button = document.querySelector('button');\nbutton.addEventListener('click', () => {\n  button.textContent = 'Clicked!';\n});\nPractice: add a button to your HTML page and connect this script."
+    ]
+  },
+  {
+    "id": "python",
+    "title": "Python Programming",
+    "category": "Development",
+    "image": "course-python.png",
+    "desc": "Start solving problems with readable, practical code.",
+    "lessons": [
+      "Meet Python",
+      "Making decisions",
+      "Repeating tasks"
+    ],
+    "body": [
+      "Python is a programming language used for automation, applications and data work. A print statement displays output.\nCODE:print('Hello, Bright Tech!')\nPractice: save this as hello.py and run it in a Python environment.",
+      "Conditional statements choose which instructions to run. Indentation is part of Python syntax.\nCODE:score = 75\nif score >= 50:\n    print('Passed')\nelse:\n    print('Try again')\nPractice: change score to 40 and run the code again.",
+      "A for loop repeats instructions for each item in a sequence.\nCODE:for topic in ['HTML', 'CSS', 'Python']:\n    print(topic)\nPractice: replace the list with three things you want to learn."
+    ]
+  },
+  {
+    "id": "ui",
+    "title": "UI/UX Design",
+    "category": "Design",
+    "image": "project-ui.jpg",
+    "desc": "Create clear, useful digital experiences for real people.",
+    "lessons": [
+      "Understand the user",
+      "Sketch a user flow",
+      "Build a wireframe"
+    ],
+    "body": [
+      "Start with a user and a task. Ask what they want to achieve, what stops them, and what a successful outcome looks like.\nPractice: interview a learner about finding the next lesson in a course.",
+      "A user flow lists the steps needed to complete a task. For course learning: open My Learning, choose a course, choose a lesson, study, mark complete.\nPractice: sketch these steps and note where a learner might get stuck.",
+      "A wireframe is a simple layout without decorative details. Put the most useful information and main action where people can find them.\nPractice: sketch a mobile lesson page with a title, lesson content, and a completion button."
+    ]
+  },
+  {
+    "id": "graphic",
+    "title": "Graphic Design",
+    "category": "Design",
+    "image": "course-graphic-design.jpg",
+    "desc": "Communicate ideas through thoughtful visual design.",
+    "lessons": [
+      "Visual hierarchy",
+      "Colour and contrast",
+      "Design a learning poster"
+    ],
+    "body": [
+      "Visual hierarchy helps viewers see the most important information first. Use size, spacing and weight to separate a headline, supporting details and a call to action.\nPractice: sketch a poster for an HTML lesson.",
+      "Colour supports recognition and readability. Check that text remains readable against its background and avoid relying on colour alone to communicate meaning.\nPractice: compare white and grey text on a purple background.",
+      "Start with a purpose, an audience, and one main message. Add a clear title, the essential details and a next step.\nPractice: design a poster inviting learners to watch a tutorial on the Bright Tech YouTube channel."
+    ]
+  },
+  {
+    "id": "web",
+    "title": "Web Development",
+    "category": "Development",
+    "image": "project-web.jpg",
+    "desc": "Connect structure, styling and interaction in one project.",
+    "lessons": [
+      "Plan your website",
+      "Build the page",
+      "Review on mobile"
+    ],
+    "body": [
+      "Define the site's audience and main action before writing code. Sketch the content sections and navigation.\nPractice: plan a personal portfolio with an introduction, projects and contact information.",
+      "Build the structure with semantic HTML, add layout and styling with CSS, and use JavaScript where interaction is useful.\nPractice: create a portfolio page with a heading, project cards and working contact links.",
+      "Test your site at several widths. Check for horizontal overflow, readable text, useful spacing and controls you can operate with a keyboard.\nPractice: resize your browser to a phone-sized width and fix one layout problem."
+    ]
+  },
+  {
+    "id": "fundamentals",
+    "title": "Programming Fundamentals",
+    "category": "Development",
+    "image": "project-python.jpg",
+    "desc": "Learn the thinking behind every programming language.",
+    "lessons": [
+      "Break down a problem",
+      "Inputs and outputs",
+      "Debug step by step"
+    ],
+    "body": [
+      "Break a large task into small steps. An algorithm is a sequence of instructions to solve a problem.\nPractice: write the steps for calculating the average of three numbers.",
+      "A program accepts inputs, processes them and produces outputs. Identify each part before choosing a language.\nPractice: for a grade calculator, list the inputs, calculation and expected output.",
+      "Debugging means finding and fixing mistakes. Reproduce the problem, compare the actual and expected results, and check one small part at a time.\nPractice: test your average algorithm with 3, 6 and 9. The expected answer is 6."
+    ]
+  }
+]
